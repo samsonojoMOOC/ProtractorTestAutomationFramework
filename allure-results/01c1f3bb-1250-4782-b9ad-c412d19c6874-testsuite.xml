@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1464017576503" stop="1464017636894">
+	<name>Login Test: </name>
+	<title>Login Test: </title>
+	<test-cases>
+		<test-case start="1464017576505" stop="1464017636892" status="failed">
+			<name>Validate user credentials</name>
+			<title>Validate user credentials</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="46e48515-0485-4564-88e1-9808f04f86f0-attachment.png" type="image/png" size="44577"/>
+			</attachments>
+			<failure>
+				<message>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.</message>
+				<stack-trace>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+    at [object Object]._onTimeout (C:\Users\Samson\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1909:23)
+    at Timer.listOnTimeout (timers.js:92:15)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

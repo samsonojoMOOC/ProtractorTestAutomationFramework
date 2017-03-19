@@ -1,0 +1,116 @@
+
+{
+  	"testsiteurl":"http://192.9.200.11/concept/",
+
+  	"loginLocator":{
+
+  		"loginPage":{
+
+    	"username":"dudname",
+   		 "password":"j_password",
+   		 "orgId":"empcode",
+   		 "signInBtn":"login_button"
+
+  	},
+
+  	"loginData":{
+
+  		"logCorp":{
+
+  			"username":"TELLER1",
+  			"password":"REMITA1",
+  			"orgId":"032"
+
+  		},
+
+  		"logIndividual":{
+
+  			"username":"INIT",
+  			"password":"REMITA1"
+
+  			}
+ 
+  		}
+	},
+
+	"DANLocator":{
+
+		"firstMethodRadio":"authLinkDan",
+		"danAnswer":"_passCode",
+		"submitBtn":"submitButton",
+		"danAnswerData":"2000"
+
+		},
+
+	"Payments":{
+
+		"payVendorSupplierLocator":{
+
+			},
+
+		"payVendorSupplierData":{
+
+			},
+
+
+		"payRegisteredBillerLocator":{
+
+			"mainMenu":"//*[@id='mainmenu']/li[5]/a",
+			"subMenu":"//*[@id='cpayeeregistration']",
+			"amountToPay":"amount",
+			"sendForApproverBtn":"submitButton"
+
+
+			},
+
+		"payRegisteredBillerData":{
+
+			}
+	},
+
+	"RRRProcessing":{
+
+		"TellerLocator":{
+
+			"BranchOpsMenu":"//*[@id='mainmenu']/li[3]/a",
+			"ProcessRRRSubMenu":"//*[@id='cashCollection1']",
+			"RRRField":"//*[@id='transref']",
+			"SendRRRBtn":"//*[@id='searchByRef']",
+			"DepositSlipField":"//*[@id='tellerNumber']",
+			"SendForApproverBtn":"//*[@id='savebtn']"
+
+		},
+
+		"TellerData":{
+
+			"RRR":"O13683503",
+			"DepositSlipNo":"453"
+
+		},
+
+		"RRRReportLocate":{
+
+			"ReportMain":"//*[@id='mainmenu']/li[4]/a",
+			"ReportSubMenu":"//*[@id='cashcoll2']",
+			"PaymentStatus":"//*[@id='paymentstatus']",
+			"RowSummary":"//*[@id='listtodisplay']",
+			"DisplayFormat":"//*[@id='frm']/div[1]/div/select",
+			"ViewReport":"//*[@id='frm']/div[2]/input[1]",
+			"TextToVerify":"html/body/table/tbody/tr/td[2]/table/tbody/tr[4]/td[3]/p/span"
+
+		},
+
+		"RRRReportData":{
+
+			"PaymentStatusFilt":"ALL Transactions",
+			"RowSummary":"det",
+			"DisplayFormatFilt":"htm"
+			
+
+		}
+
+	}
+
+		
+
+}

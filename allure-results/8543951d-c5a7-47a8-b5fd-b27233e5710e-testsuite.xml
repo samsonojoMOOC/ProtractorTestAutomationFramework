@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1464017636903" stop="1464017648462">
+	<name>Providing DAN Answer: </name>
+	<title>Providing DAN Answer: </title>
+	<test-cases>
+		<test-case start="1464017636904" stop="1464017648461" status="passed">
+			<name>Verify that DAN Answer is correct</name>
+			<title>Verify that DAN Answer is correct</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1cb725c3-4371-4c4c-9ede-dac42def89de-attachment.png" type="image/png" size="56916"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
